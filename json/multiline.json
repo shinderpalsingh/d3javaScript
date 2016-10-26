@@ -1,0 +1,20 @@
+[
+  {
+    "Fat": 4.420436692506465,
+    "Protien": 2.1901005167958676,
+    "carbohydrates": 8.232155038759684,
+    "regions": "NorthEurope"
+  },
+  {
+    "Fat": 7.7953038019892915,
+    "Protien": 4.544547902263883,
+    "carbohydrates": 16.301814183709084,
+    "regions": "CentralEurope"
+  },
+  {
+    "Fat": 7.3347968446602,
+    "Protien": 3.44622285966461,
+    "carbohydrates": 15.245205207413942,
+    "regions": "SouthEurope"
+  }
+]

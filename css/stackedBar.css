@@ -1,0 +1,21 @@
+<style>
+   body{
+     background-color: pink;
+   }
+   .bar1 {
+     fill:green;
+   }
+   .legend {
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-size: 80%;
+   }
+   .axis {
+     font: 10px sans-serif;
+     font-size: 12px;
+   }
+   .axis path,
+   .axis line {
+     fill: none;
+     stroke: #000;
+   }
+ </style>
