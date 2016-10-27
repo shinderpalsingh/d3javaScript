@@ -18,16 +18,16 @@
 
  <script>
 
-  var margin={top:40, bottom:100, left:150, right:90},
+  var margin={top:40, bottom:100, left:150, right:90},//set margin
   width=1000-margin.left-margin.right,
   height=600-margin.top-margin.bottom;
 
   var horizontal=d3.scale.ordinal().rangeRoundBands([0,width],0.12),
   vertical=d3.scale.linear().rangeRound([height,0]);
 
-  var x = d3.scale.ordinal()
+  var x = d3.scale.ordinal() //set x axis position
   .rangeRoundBands([0,width], 0.2,0.2);
-  var	y = d3.scale.linear().range([height, 0]);
+  var	y = d3.scale.linear().range([height, 0]); //set y axis position
 
   var	xAxis = d3.svg.axis().scale(x)
   .orient("bottom");
@@ -55,9 +55,9 @@
   .append("g")
   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-// Get the data
+
 d3.json("json/multiLine.json", function(error, data) {
-	data.forEach(function(d) {
+	data.forEach(function(d) { //get the data
 		d.regions = d.regions;
 		d.Fat = d.Fat;
 		d.Protien = d.Protien;

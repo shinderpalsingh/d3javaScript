@@ -4,23 +4,19 @@
       background: pink;
 
     }
-
-    .line {
-
-      stroke-width: 2px;
-    }
     path {
 
      stroke-width: 2;
      fill: none;
    }
+    .line {
 
+      stroke-width: 2px;
+    }
    .axis path,
    .axis line {
      fill: none;
      stroke: grey;  /*x and y axis line*/
      stroke-width: 1.5;
    }
-
-
  </style>
